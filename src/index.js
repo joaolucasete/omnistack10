@@ -5,7 +5,7 @@ import routes from './routes.js';
 
 const app = express();
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-4evhg.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<user>:<password>@cluster0-4evhg.mongodb.net/week10?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
